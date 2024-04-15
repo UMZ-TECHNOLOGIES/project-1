@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900& display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+body {
+  background: white;
+}
+header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px 50px;
+  background: transparent;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  position: relative;
+  font-weight: 600;
+}
+.navbar {
+  position: relative;
+  margin-right: 225px;
+}
+header a img {
+  height: 35px;
+  margin-left: 215px;
+}
+.navbar a {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 35px;
+}
+.navbar a:hover {
+  color: blueviolet;
+}
+
+.background-img {
+  height: 70vh;
+  width: 100%;
+  filter: blur(0.8px);
+  opacity: 0.7px black;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("Aerial_2_3000.jpg");
+}
+.break {
+  position: absolute;
+  left: 450px;
+  top: 225px;
+  font-size: 40px;
+  color: white;
+}
+.break .small {
+  font-size: 15px;
+  margin-left: 85px;
+}
+.container {
+  width: 100%;
+  height: 235px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 25px;
+  font-size: 15px;
+}
+.container .seperate {
+  margin-top: 25px;
+  padding: 15px;
+  border: 2px solid rgb(64, 153, 42);
+  display: flex;
+  font-size: bold;
+  font-weight: 500;
+}
+footer {
+  width: 100%;
+  height: 40vh;
+  background-color: black;
+  color: white;
+}
+.word-1 {
+  display: flex;
+  flex-direction: column;
+}
+.footer-1 {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  padding-top: 25px;
+}
+footer li{
+  list-style: none;
+}
+
+footer img{
+  height: 35px;
+}
